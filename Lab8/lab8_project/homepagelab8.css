@@ -1,0 +1,22 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fdf6;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(rgba(47, 79, 47, 0.5), rgba(47, 79, 47, 0.5)),
+              url('matcha-bg.jpg') center/cover no-repeat;
+}
+
+.navbar {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+footer {
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}

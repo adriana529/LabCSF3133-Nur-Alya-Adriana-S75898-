@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Adriana</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="challenge.css">
+</head>
+<body>
+
+<!-- Header & Hero Section -->
+<div class="container mt-3 text-center hero">
+  <div class="overlay p-5 rounded">
+    <h1>Front-End Developer</h1>
+    <p>Transforming ideas into digital reality</p>
+  </div>
+</div>
+
+<!-- Recent Projects -->
+<div class="container my-5 text-center recent-projects">
+  <h2>Recent Projects</h2>
+  <div class="list-group">
+    <a href="#" class="list-group-item">E-commerce App</a>
+    <a href="#" class="list-group-item">School Management System</a>
+    <a href="#" class="list-group-item">Portfolio v1</a>
+  </div>
+</div>
+
+<!-- Top Services & Projects -->
+<section class="top-projects container my-5">
+  <h2 class="text-center mb-4">Top Services & Projects</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped" id="projects-table">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Estimated Price</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS will generate rows here -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Quotation Form -->
+<div class="container mt-3 text-center" id="quoteForm">
+  <h3>Quotation Form</h3>
+  <p>Fill out your details and submit.</p>
+
+  <form class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname">Client Name:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Client Name" name="name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="emailAdd">Email Address:</label>
+      <input type="email" class="form-control" id="emailAdd" placeholder="Email Address" name="emailAdd" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="projecttype">Project Type:</label>
+      <input type="text" class="form-control" id="projecttype" placeholder="Project Type" name="projecttype" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="voucherCode">Voucher Code:</label>
+      <input type="text" class="form-control" id="voucherCode" placeholder="DEVxxxx" name="voucher" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="text-center bg-dark text-white py-3">
+  © 2025 Adriana. All Rights Reserved.
+</footer>
+
+<!-- Bootstrap JS & jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="challenge.js"></script>
+</body>
+</html>
